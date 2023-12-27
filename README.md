@@ -4,7 +4,7 @@
 Generate transcripts for all your YT videos via API integrations.
 
 ## Maintainers
-@tejaswi0910 and @Nitya-Pasrija 
+@i-am-SnehaChauhan and @Nitya-Pasrija 
 
 ## Reviwers
 @hashcoder-deepanshi
