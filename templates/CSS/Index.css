@@ -12,3 +12,17 @@ input[type=text] {
     border: 3px solid;
     border-radius: 20px;
   }
+.know-us{
+  position: absolute;
+  top: 5%;
+  right: 11rem;
+  padding: 10px 20px;
+  background-color: #da6380;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.know-us:hover {
+    background-color: #a40f34;
+  }
