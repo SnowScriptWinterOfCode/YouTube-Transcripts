@@ -1,5 +1,10 @@
 body{
     background-image: linear-gradient(80deg, rgb(232, 183, 191), rgb(167, 201, 214));
+    margin:0;
+    padding:0;
+}
+.body{
+  min-height: 100vh;
 }
 h3{
     font-weight: 800;
@@ -12,17 +17,53 @@ input[type=text] {
     border: 3px solid;
     border-radius: 20px;
   }
-.know-us{
-  position: absolute;
-  top: 5%;
-  right: 11rem;
-  padding: 10px 20px;
-  background-color: #da6380;
-  color: white;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-}
-.know-us:hover {
-    background-color: #a40f34;
+
+  nav {
+    background-color:  rgba(26, 24, 24, 0.877);
+    overflow: hidden;
+    height:4rem;
+    text-align: center;
+    
   }
+
+  .bar{
+    margin-right: 15rem;
+  }
+  nav a {
+    float: right;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 25px 30px;
+    text-decoration: none;
+    font-size: large;
+    
+    
+  }
+
+  nav a:hover {
+    background-color: #ded6da;
+    color: black;
+  }
+  footer {
+    background-color: rgba(26, 24, 24, 0.877);
+    text-align: center;
+    padding: 20px 0;
+    color: white;
+    margin-top: auto;
+}
+
+.quick-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.quick-links a:hover {
+    text-decoration: underline;
+}
+
+.copyright {
+    margin-top: 20px;
+}
+  

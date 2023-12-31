@@ -3,6 +3,9 @@ body{
     padding:0;
     background-image: linear-gradient(80deg, rgb(232, 183, 191), rgb(167, 201, 214));
 }
+.body{
+  min-height: 100vh;
+}
 .head{
     height: 10rem;
     background-color:#c1385a;
@@ -102,3 +105,52 @@ right: 16rem;
     background-color: #a40f34;
   }
 
+  nav {
+    background-color:  rgba(26, 24, 24, 0.877);
+    overflow: hidden;
+    height:4rem;
+    
+  }
+
+  .bar{
+    margin-right: 15rem;
+  }
+  nav a {
+    float: right;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 25px 30px;
+    text-decoration: none;
+    font-size: large;
+    
+    
+  }
+
+  nav a:hover {
+    background-color: #ded6da;
+    color: black;
+  }
+  footer {
+    background-color: rgba(26, 24, 24, 0.877);
+    text-align: center;
+    padding: 20px 0;
+    color: white;
+    margin-top: auto;
+}
+
+.quick-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.quick-links a:hover {
+    text-decoration: underline;
+}
+
+.copyright {
+    margin-top: 20px;
+}
+  
+  
