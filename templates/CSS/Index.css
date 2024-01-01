@@ -12,3 +12,7 @@ input[type=text] {
     border: 3px solid;
     border-radius: 20px;
   }
+#videoContainer{
+    padding-top: 20px;
+    padding-left: 20px;
+}
