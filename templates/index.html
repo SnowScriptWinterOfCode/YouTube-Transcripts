@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Index Page</title>
@@ -21,24 +22,27 @@
         }
     </script>
 </head>
+
 <body>
     <section class="body">
-    <nav>
-        <div class="bar">
-        <a href="index.html">Home</a>
-        <a href="About.html">About</a>
-        <a href="About.html#faq-section">FAQS</a>
-        <a  href="#contact">Contact</a>
-    </div>
-      </nav>
-      
-    <form action="/form_login" method="post">
-     <form action="/form_login" method="post">
-        <h3>Get YouTube Transcript for Free</h3><br/>
-        <input type="text" name="url" id="url">
-        <input type="submit" value="Get Video Transcript">
-    </form>
-</section>
+        <nav>
+            <div class="bar">
+                <a href="index.html">Home</a>
+                <a href="About.html">About</a>
+                <a href="About.html#faq-section">FAQS</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </nav>
+
+        <form action="/form_login" method="post">
+            <h3>Get YouTube Transcript for Free</h3><br />
+            <input type="text" name="url" id="url">
+            <input type="submit" value="Get Video Transcript">
+            <input type="button" value="Get youtube video preview" onclick="embedVideo()">
+        </form>
+        <!-- Container to display the embedded video -->
+        <div id="videoContainer"></div>
+    </section>
     <footer>
         <div class="quick-links">
             <a href="index.html">Home</a>
@@ -50,11 +54,6 @@
             &copy; 2023 Your Company Name. All rights reserved.
         </div>
     </footer>
-        <input type="button" value="Get youtube video preview" onclick="embedVideo()">
-    </form> 
-
-    <!-- Container to display the embedded video -->
-    <div id="videoContainer"></div>
-
 </body>
+
 </html>
