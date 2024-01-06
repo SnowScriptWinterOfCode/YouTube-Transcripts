@@ -34,12 +34,14 @@
             </div>
         </nav>
 
-        <form action="/form_login" method="post">
-            <h3>Get YouTube Transcript for Free</h3><br />
-            <input type="text" name="url" id="url">
-            <input type="submit" value="Get Video Transcript">
-            <input type="button" value="Get youtube video preview" onclick="embedVideo()">
-        </form>
+        <div class="glass">
+            <form class="firstform" action="/form_login" method="post">
+                <h3>Get YouTube Transcript for Free</h3><br />
+                <input id="textinput" type="text" name="url" id="url">
+                <input class="button" id="transcriptbutton" type="submit" value="Get Video Transcript">
+                <input class="button" id="previewbutton" type="button" value="Get youtube video preview" onclick="embedVideo()">
+            </form>
+        </div>
         <!-- Container to display the embedded video -->
         <div id="videoContainer"></div>
     </section>
