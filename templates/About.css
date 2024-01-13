@@ -137,6 +137,8 @@ right: 16rem;
     padding: 20px 0;
     color: white;
     margin-top: auto;
+    position:absolute;
+    bottom: 0;
 }
 
 .quick-links a {
@@ -152,5 +154,5 @@ right: 16rem;
 .copyright {
     margin-top: 20px;
 }
-  
+
   
